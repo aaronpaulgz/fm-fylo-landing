@@ -44,6 +44,8 @@
 .header_list_item {
   margin: 0 0 0 12px;
   cursor: pointer;
+  font-size: 0.8rem;
+  font-weight: 700;
 }
 
 .header_list_item a {
@@ -82,7 +84,7 @@
 
 .hero_input {
   width: 100%;
-  height: 48px;
+  height: 40px;
   padding: 0 16px;
   border-radius: 6px;
   border: 1px solid black;
@@ -95,7 +97,7 @@
 
 .hero_btn {
   width: 100%;
-  height: 48px;
+  height: 40px;
   border-radius: 6px;
   background-color: var(--Bright-Blue);
   border: none;
@@ -112,8 +114,8 @@
 }
 
 .form_alert {
-  margin: 8px 0;
-  font-size: 0.8rem;
+  margin: 4px 0;
+  font-size: 0.7rem;
   color: var(--Bright-Red);
   border-radius: 4px;
   visibility: hidden;
@@ -135,7 +137,8 @@
 
 .prod-description_img,
 .prod-description_title,
-.prod-description_text {
+.prod-description_text,
+.prod-link {
   width: 310px;
   max-width: 320px;
   margin: auto;
@@ -157,4 +160,76 @@
   font-family: var(--Secondary-Font);
   font-size: 0.9rem;
   text-align: left;
+}
+
+.prod-link {
+  display: inline-flex;
+  width: 160px;
+  /* justify-content: center; */
+  align-items: center;
+  height: 36px;
+  border-bottom: 1px solid var(--Moderate-Cyan);
+  margin: 40px auto 0;
+}
+
+.prod-link > p {
+  font-size: 0.9rem;
+}
+
+.prod-link > img {
+  width: 20px;
+  height: 20px;
+  margin: 0 0 0 8px;
+}
+
+.prod-redirect {
+  text-decoration: none;
+  color: var(--Moderate-Cyan);
+}
+
+.prod-card {
+  background-color: white;
+  text-align: left;
+  width: 300px;
+  max-width: 310px;
+  margin: 40px auto 80px;
+  padding: 24px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);
+  -moz-box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);
+  box-shadow: 0px 0px 8px 2px rgba(0, 0, 0, 0.12);
+}
+
+.prod-card_quote {
+  width: 16px;
+}
+
+.prod-card_text {
+  font-size: 0.7rem;
+  line-height: 1.2rem;
+}
+
+.prod-card_person {
+  display: flex;
+  margin: 12px 0 0 0;
+}
+
+.prod-card_img {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  margin: 0 12px 0 0;
+}
+
+.prod-card_person-info {
+}
+
+.prod-card_person-name {
+  font-size: 0.7rem;
+  font-weight: 700;
+  letter-spacing: 0.5px;
+}
+
+.prod-card_person-charge {
+  font-size: 0.5rem;
 }
