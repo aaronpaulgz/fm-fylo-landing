@@ -118,3 +118,43 @@
   border-radius: 4px;
   visibility: hidden;
 }
+
+.prod {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  margin: 144px auto 0;
+  padding: 0 0 0 0;
+  text-align: center;
+  background-color: var(--Light-Grayish-Blue);
+}
+
+.prod_ornament {
+  margin: -44px 0 0 0;
+}
+
+.prod-description_img,
+.prod-description_title,
+.prod-description_text {
+  width: 310px;
+  max-width: 320px;
+  margin: auto;
+}
+
+.prod-description_img img {
+  width: 100%;
+}
+
+.prod-description_title {
+  margin: 40px auto 0;
+  font-family: var(--Primary-Font);
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+.prod-description_text {
+  margin: 24px auto 0;
+  font-family: var(--Secondary-Font);
+  font-size: 0.9rem;
+  text-align: left;
+}
