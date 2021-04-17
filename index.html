@@ -28,5 +28,57 @@
     />
     <title>Frontend Mentor | Fylo landing page with two column layout</title>
   </head>
-  <body></body>
+  <body>
+    <header class="header">
+      <nav class="header_nav">
+        <img class="header_img" src="./images/logo.svg" alt="" />
+        <ul class="header_list">
+          <li class="header_list_item">
+            <a href=""> Features </a>
+          </li>
+          <li class="header_list_item">
+            <a href="">Team</a>
+          </li>
+          <li class="header_list_item">
+            <a href="">Sign in</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <main class="hero">
+      <figure class="hero_img">
+        <img src="./images/illustration-1.svg" alt="" />
+      </figure>
+      <section class="hero_description">
+        <h1 class="hero_title">
+          All your files in one secure location, accessible anywhere.
+        </h1>
+        <p class="hero_text">
+          Fylo stores your most important files in one secure location. Access
+          them wherever you need, share and collaborate with friends, family,
+          and co-workers.
+        </p>
+        <form
+          id="hero_form"
+          action=""
+          class="hero_form"
+          onsubmit="event.preventDefault()"
+        >
+          <div class="hero_input_container">
+            <input
+              id="hero_input"
+              placeholder="Enter your email..."
+              type="email"
+              class="hero_input"
+            />
+            <p id="form_alert" class="form_alert">Please check your email</p>
+          </div>
+          <button onclick="heroFormCheckMail()" class="hero_btn">
+            Get Started
+          </button>
+        </form>
+      </section>
+    </main>
+  </body>
+  <script src="./index.js"></script>
 </html>
