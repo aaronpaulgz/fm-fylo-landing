@@ -1,0 +1,98 @@
+.header {
+  width: 620px;
+  max-width: 700px;
+}
+
+.header_list_item {
+  margin: 0 0 0 12px;
+  cursor: pointer;
+  font-size: 0.9rem;
+  font-weight: 700;
+}
+
+.hero {
+  width: 620px;
+  max-width: 700px;
+  display: flex;
+  flex-direction: column;
+}
+
+.hero_img {
+  display: flex;
+  place-items: center;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.hero_description {
+  text-align: center;
+  width: 420px;
+  margin: 0 auto;
+}
+
+.hero_form {
+  width: 320px;
+  margin: 32px auto 0;
+}
+
+.prod-description_img {
+  display: flex;
+  place-items: center;
+  width: 520px;
+  margin: 0 auto;
+}
+
+.prod-description_title {
+  width: 520px;
+  font-size: 1.1rem;
+}
+
+.eaccess {
+  padding: 56px 0;
+  text-align: center;
+  background-color: var(--Desaturated-Blue);
+}
+
+.eaccess_title {
+  width: 520px;
+  max-width: 520px;
+  margin: 0 auto;
+  font-size: 1.2rem;
+  font-family: var(--Primary-Font);
+  color: var(--Light-Grayish-Blue);
+}
+
+.eaccess_text {
+  width: 520px;
+  max-width: 520px;
+  margin: 24px auto 0;
+  font-size: 1rem;
+  color: var(--Light-Grayish-Blue);
+}
+
+.eaccess_form {
+  margin: 32px auto 0;
+  width: 280px;
+  max-width: 300px;
+}
+
+.footer_logo {
+  text-align: center;
+}
+
+.footer_contact {
+  text-align: center;
+}
+
+.contact {
+  margin: 24px auto 0;
+}
+
+.contact > p {
+  font-size: 0.9rem;
+}
+
+.links > a > li {
+  text-align: center;
+  font-size: 0.9rem;
+}

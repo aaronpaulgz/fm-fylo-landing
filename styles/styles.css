@@ -18,6 +18,10 @@
   font-family: var(--Secondary-Font);
 }
 
+body {
+  margin: 0 auto;
+}
+
 .header {
   width: 310px;
   max-width: 320px;
@@ -235,7 +239,7 @@
 }
 
 .eaccess {
-  padding: 56px 48px;
+  padding: 56px 0;
   text-align: center;
   background-color: var(--Desaturated-Blue);
 }
