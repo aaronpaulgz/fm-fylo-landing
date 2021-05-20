@@ -321,16 +321,26 @@ body {
 
 .footer_logo {
   width: 100%;
-  margin: 72px 0 20px 0;
+  margin: 72px auto 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
 .footer_logo > img {
   width: 172px;
   height: 56px;
+  margin: 0 auto;
   /* filter: invert(1); */
   filter: grayscale(100%);
   filter: brightness(5);
   filter: contrast(3);
+}
+
+.footer-x {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
 }
 
 .footer_location figure {
@@ -345,12 +355,13 @@ body {
 .footer_contact {
   display: flex;
   flex-direction: column;
+  text-align: left;
 }
 
 .contact {
   display: flex;
   align-items: center;
-  margin: 16px 0 0 0;
+  margin: 16px auto 0;
 }
 
 .contact figure {
